@@ -1,0 +1,18 @@
+.nav-bar{
+    background-color:lightskyblue;
+    height: 4rem;
+}
+.name {
+    margin-top: 10px;
+}
+.nav-links{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+
+    align-content:space-between;
+    align-items: center;
+}
+.nav-links >li{
+    padding: 15px 50px;
+}
