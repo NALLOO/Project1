@@ -1,23 +1,26 @@
 import React from 'react';
+import './Register.css';
 
 function Register() {
     return (
         <div className="Register-content">
             <div className="row justify-content-center">
-                <div className="col-md-5"><div className="card">
+                <div className="col-md-6"><div className="card">
                     <div className="card-header">Đăng ký tài khoản</div>
                     <div className="card-body">
-                        <form action="#">
+                        <form >
                             <div className="form-item row mb-4">
-                                <div className="col-md-3"><label htmlFor="name">Họ Tên</label></div>
-                                <div className="col-md-7"><input type="text" /></div>
+                                <div className="col-md-3 item-label"><label className="form-item-label" htmlFor="name">Họ Tên</label></div>
+                                <div className="col-md-7"><input type="text" className="form-item-input"
+                                    placeholder="Họ Tên" /></div>
                             </div>
                             <div className="form-item row mb-4">
-                                <div className="col-md-3"><label htmlFor="email">Email</label></div>
-                                <div className="col-md-7"><input type="text" /></div>
+                                <div className="col-md-3 item-label"><label className="form-item-label" htmlFor="email">Email</label></div>
+                                <div className="col-md-7"><input type="text" className="form-item-input"
+                                    placeholder="Email" /></div>
                             </div>
                             <div className="form-item row mb-4">
-                                <div className="col-md-3"><label htmlFor="school">Tên Trường</label></div>
+                                <div className="col-md-3 item-label"><label className="form-item-label" htmlFor="school">Tên trường</label></div>
                                 <div className="col-md-7"><select className="form-control" name="school_id" id="school_id">
                                     <option value="0">Chọn Trường</option>
                                     <option value="1">Đại học Bách Khoa Hà Nội</option>
@@ -27,14 +30,16 @@ function Register() {
                                 </div>
                             </div>
                             <div className="form-item row mb-4">
-                                <div className="col-md-3"><label htmlFor="password">Mật khẩu</label></div>
-                                <div className="col-md-7"><input type="text" /></div>
+                                <div className="col-md-3 item-label"><label className="form-item-label" htmlFor="password">Mật khẩu</label></div>
+                                <div className="col-md-7"><input type="text" className="form-item-input"
+                                    placeholder="Mật khẩu" /></div>
                             </div>
                             <div className="form-item row mb-4">
-                                <div className="col-md-3"><label htmlFor="password">Nhập lại mật khẩu</label></div>
-                                <div className="col-md-7"><input type="text" /></div>
+                                <div className="col-md-3 item-label"><label className="form-item-label" htmlFor="password">Nhập lại mật khẩu</label></div>
+                                <div className="col-md-7"><input type="text" className="form-item-input"
+                                    placeholder="Nhập lại mật khẩu" /></div>
                             </div>
-                            <button type="submit row mb-0">Đăng ký</button>
+                            <button type="submit row mb-0 " id="btn-register">Đăng ký</button>
                         </form>
                     </div>
                 </div>

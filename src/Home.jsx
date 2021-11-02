@@ -30,7 +30,7 @@ function Home() {
                             <div class="col-md-7">
                                 <input type="text" name="file_name" id="file_name" class="form-control" placeholder="Tài liệu cần kiểm tra" readonly="" />
                                 <div id="file_name_error" class="invalid-feedback"></div>
-                                <div class="mt-2" >* Nội dung file cần kiểm tra là văn bản tiếng Việt có dấu, file có đuôi là pdf.</div>
+                                <div class="mt-2" style={{ color: "red", fontSize: "10px " }}>* Nội dung file cần kiểm tra là văn bản tiếng Việt có dấu, file có đuôi là pdf.</div>
                             </div>
                         </div>
                         <div class="col-md-7 row offset-3">
@@ -119,8 +119,8 @@ function Home() {
                         </div>
                     </form>
                 </div>
-            </div>
-        </section>
+            </div >
+        </section >
     );
 }
 

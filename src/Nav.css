@@ -1,11 +1,15 @@
 .nav-bar{
-    background-color:lightskyblue;
+    background-color:#5974a3;
     height: 4rem;
 }
 .name {
     margin-top: 10px;
+    color: white;
+    margin-left: 100px;
+    font-size: 25px;
 }
 .nav-links{
+    margin-right: 100px;
     display: flex;
     flex-flow: row nowrap;
     list-style: none;
@@ -14,5 +18,16 @@
     align-items: center;
 }
 .nav-links >li{
-    padding: 15px 50px;
+    margin: 15px 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+}
+.nav-links >  li:hover {
+    background-color: white;
+    
+    color: #5974a3;
+    cursor: pointer;
 }

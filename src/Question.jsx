@@ -1,14 +1,14 @@
 import React from 'react';
-
+import './Question.css';
 
 function Question() {
     return (
         <div className="question-content">
             <div className="row justify-content-center">
-                <div className="col-md-10">
+                <div className="col-md-10 question-items">
                     <p>
                         <i class="fas fa-question-circle"></i>
-                        Câu hỏi thường gặp</p>
+                        CÂU HỎI THƯỜNG GẶP</p>
                     <ol>
                         <li className="question-item">
                             <span>Tôi chưa đăng ký làm người dùng của hệ thống. Tôi có thể kiểm tra tài liệu không?</span>

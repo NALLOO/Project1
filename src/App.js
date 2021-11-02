@@ -8,7 +8,8 @@ import Home from './Home';
 function App() {
   return (
       <><Nav />
-      <Home/>
+      <Register/>
+      <Footer/>
       </>
   );
 }

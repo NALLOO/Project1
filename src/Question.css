@@ -1,0 +1,25 @@
+.question-content{
+    padding-top: 2.5rem;
+}
+.question-items{
+    margin-left: 4rem;   
+}
+.question-items >p {
+    font-size: large;  
+    font-weight: 600; 
+}
+.question-items >p >i {
+    margin-right: 10px;
+    color: #2592eb;
+}
+.question-item{
+    padding-bottom: 10px;
+}
+.question-item > span{
+    font-weight: 700;
+    font-size: 15px;
+}
+.question-item{
+    font-size: 14px;
+}
+

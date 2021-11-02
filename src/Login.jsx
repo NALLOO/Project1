@@ -1,4 +1,5 @@
 import React from 'react';
+import './Login.css';
 
 function Login() {
     return (
@@ -11,11 +12,15 @@ function Login() {
                             <form >
                                 <div className="login-item row mb-4">
                                     <label className="col-md-3" htmlFor="user">Tên đăng nhập</label>
-                                    <div className="col-md-7"><input type="text" /></div>
+                                    <div className="col-md-7">
+                                        <input className="form-input" type="text"
+                                            placeholder="Tên đăng nhập" /></div>
                                 </div>
                                 <div className="login-item row mb-4">
                                     <label className="col-md-3" htmlFor="password">Mật khẩu</label>
-                                    <div className="col-md-7"><input type="text" /></div>
+                                    <div className="col-md-7">
+                                        <input className="form-input" type="password"
+                                            placeholder="Mật khẩu" /></div>
                                 </div>
                                 <div className="col-md-7 offset-md-5"><button type="submit">Đăng nhập</button></div>
                             </form>
