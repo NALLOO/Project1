@@ -21,12 +21,13 @@ function Register() {
                             </div>
                             <div className="form-item row mb-4">
                                 <div className="col-md-3 item-label"><label className="form-item-label" htmlFor="school">Tên trường</label></div>
-                                <div className="col-md-7"><select className="form-control" name="school_id" id="school_id">
-                                    <option value="0">Chọn Trường</option>
-                                    <option value="1">Đại học Bách Khoa Hà Nội</option>
-                                    <option value="2">Đại học Xây Dựng</option>
-                                    <option value="3">Đại học Kinh tế Quốc dân</option>
-                                </select>
+                                <div className="col-md-7">
+                                    <select className="form-control" name="school_id" id="school_id">
+                                        <option value="0">Chọn Trường</option>
+                                        <option value="1">Đại học Bách Khoa Hà Nội</option>
+                                        <option value="2">Đại học Xây Dựng</option>
+                                        <option value="3">Đại học Kinh tế Quốc dân</option>
+                                    </select>
                                 </div>
                             </div>
                             <div className="form-item row mb-4">

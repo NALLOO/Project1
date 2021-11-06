@@ -1,5 +1,7 @@
 import React from 'react';
 import './Nav.css';
+import { Link } from 'react-router-dom'
+
 function Nav() {
     return (
         <section className="nav-bar">
@@ -9,14 +11,14 @@ function Nav() {
                 </div>
                 <div className="col-auto">
                     <ul className="nav-links">
-                        <li>Trang chủ</li>
-                        <li>Câu hỏi thường gặp</li>
-                        <li>Đăng ký</li>
-                        <li>Đăng nhập</li>
+                        <Link to="/"><li>Trang chủ</li></Link>
+                        <Link to="/Question"><li>Câu hỏi thường gặp</li></Link>
+                        <Link to="/Register"> <li>Đăng ký</li></Link>
+                        <Link to="/Login"> <li>Đăng nhập</li></Link>
                     </ul>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
 
