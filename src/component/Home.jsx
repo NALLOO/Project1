@@ -36,7 +36,7 @@ function Home() {
                         </div>
                         <div className="col-md-7 row offset-3">
                             <input type="file" id="file_computer" name="file_computer" accept="application/pdf" className="d-none" />
-                            <a href="javascript:" className="btn btn-outline-primary pull-right mb-xl fileinput-new" id="btn-browse" data-trigger="fileinput" onclick="thisFileUpload();">
+                            <a href="#" className="btn btn-outline-primary pull-right mb-xl fileinput-new" id="btn-browse" data-trigger="fileinput" onclick="thisFileUpload();">
                                 <i className="fas fa-tv"></i> Máy tính
                             </a>
                             <button type="button" id="btn-browse" class="btn btn-outline-primary pull-right mb-xl fileinput-new ml-2" onclick="onApiLoad()">
