@@ -21,7 +21,7 @@ function Register() {
     const [errors, setErrors] = useState({})
 
     async function postData(data) {
-        // Default options are marked with *
+
         const response = await fetch(URL, {
             method: 'POST',
 
@@ -34,14 +34,8 @@ function Register() {
         e.preventDefault();
         setErrors(validate(values));
 
-
-
         if (Object.keys(errors).length === 0 && errors.constructor === Object) {
-            try {
 
-            } catch (error) {
-
-            }
             createUserWithEmailAndPassword(auth, values.email, values.password)
                 .then((userCredential) => {
                     // Signed in 
