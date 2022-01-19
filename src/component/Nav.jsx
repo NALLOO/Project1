@@ -6,7 +6,7 @@ import { signOut } from 'firebase/auth'
 
 
 function Nav() {
-    console.log(auth.currentUser);
+
     const navigate = useNavigate();
     const user = auth.currentUser;
     // const { loggedin, user, onHanleLogout } = props;
@@ -16,7 +16,7 @@ function Nav() {
 
     }
 
-    if (!user) {
+    if (!user || user.emailVerified === false) {
         return (
             <section className="nav-bar">
                 <div className="row justify-content-between">
